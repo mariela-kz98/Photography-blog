@@ -1,0 +1,336 @@
+navbar {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo-image{
+    width: 160px;
+    height: auto;
+  
+   margin-left: 40px;
+   margin-bottom: 20px;
+
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    width: 1700px;
+    height: 160px;
+    margin-left: 0px;
+    float: right;
+    overflow:hidden;
+
+background: rgb(240,240,240);
+background: linear-gradient(135deg, rgba(240,240,240,0.9495507675726541) 0%, rgba(190,214,80,0.9691586107099089) 11%, rgba(217,30,99,0.9355451653317577) 30%, rgba(28,100,112,0.9411474062281162) 42%, rgba(40,40,40,0.9775619720544467) 54%);
+padding-top: 20px;
+}
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+   padding: 20px;
+    float: right;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:#2d899a ;
+    color:white;
+    font-weight: 600;
+    border-radius: 8px;
+  
+  }
+  
+
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 40px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.article-left{
+    text-align: left;
+    margin-right: 800px;
+    padding:20px;
+
+}
+.article-right{
+    text-align: right;
+    margin-left: 1000px;
+    padding: 20px;
+}
+ 
+/* Main Footer */
+footer .main-footer{  padding: 10px 0;  background: #252525;}
+footer ul{  padding-left: 0;  list-style: none;}
+
+/* Copy Right Footer */
+.footer-copyright { background: #222; padding: 5px 0;}
+.footer-copyright .logo {    display: inherit;}
+.footer-copyright nav {    float: right;    margin-top: 5px;}
+.footer-copyright nav ul {  list-style: none; margin: 0;  padding: 0;}
+.footer-copyright nav ul li { border-left: 1px solid #505050; display: inline-block;  line-height: 12px;  margin: 0;  padding: 0 8px;}
+.footer-copyright nav ul li a{  color: #969696;}
+.footer-copyright nav ul li:first-child { border: medium none;  padding-left: 0;}
+.footer-copyright p { color: #969696; margin: 2px 0 0;}
+
+/* Footer Top */
+.footer-top{  background: #252525;  padding-bottom: 20px; margin-bottom: 20px;  border-bottom: 3px solid #222;}
+
+/* Footer transparent */
+footer.transparent .footer-top, footer.transparent .main-footer{  background: transparent;}
+footer.transparent .footer-copyright{ background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3) ;}
+
+/* Footer light */
+footer.light .footer-top{ background: #f9f9f9;}
+footer.light .main-footer{  background: #f9f9f9;}
+footer.light .footer-copyright{ background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3) ;}
+
+/* Footer 4 */
+.footer- .logo {    display: inline-block;}
+
+/*==================== 
+  Widgets 
+====================== */
+.widget{  padding: 10px;  margin-bottom: 20px;}
+.widget.widget-last{  margin-bottom: 0px;}
+.widget.no-box{ padding: 0; background-color: transparent;  margin-bottom: 40px;
+  box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none;}
+.widget.subscribe p{  margin-bottom: 18px;}
+.widget li a{ color: #fff;}
+.widget li a:hover{ color: #aaa;text-decoration: none;}
+.widget-title {margin-bottom: 20px;}
+.widget-title span {background: #839FAD none repeat scroll 0 0;display: block; height: 1px;margin-top: 25px;position: relative;width: 20%;}
+.widget-title span::after {background: inherit;content: "";height: inherit;    position: absolute;top: -4px;width: 50%;}
+.widget-title.text-center span,.widget-title.text-center span::after {margin-left: auto;margin-right:auto;left: 0;right: 0;}
+.widget .badge{ float: right; background: #7f7f7f;}
+
+.typo-light h1, 
+.typo-light h2, 
+.typo-light h3, 
+.typo-light h4, 
+.typo-light h5, 
+.typo-light h6,
+.typo-light p,
+.typo-light div,
+.typo-light span,
+.typo-light small{  color: #fff;}
+
+ul.social-footer2 { margin: 0;padding: 0; width: auto;}
+ul.social-footer2 li {display: inline-block;padding: 0;}
+ul.social-footer2 li a:hover {background-color: #d7f162;}
+ul.social-footer2 li a {display: block; height:20px;width: 20px;text-align: center;}
+.btn{background-color:#A7BB4C; color:#fff;}
+.btn:hover, .btn:focus, .btn.active {background: #4b92dc;color: #fff;
+-webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-o-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-webkit-transition: all 250ms ease-in-out 0s;
+-moz-transition: all 250ms ease-in-out 0s;
+-ms-transition: all 250ms ease-in-out 0s;
+-o-transition: all 250ms ease-in-out 0s;
+transition: all 250ms ease-in-out 0s;
+
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    background-color: #3e3e3e;
+    color: #fff;
+    padding: 9px;
+    border-radius: 5px;
+}
+
+#subscribe-box .emailfield {
+    margin: auto;
+}
+
+input[type="text"] {
+    background: rgba(255,255,255,0.075);
+    padding: 10px 15px;
+    color: #aaa;
+    border: 3px solid rgba(0,0,0,0.1);
+    font-size: 14px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    transition: all 0.2s cubic-bezier(0.4,0,0.2,1);
+    transition-delay: 0.2s;
+    text-align: center;
+    width: 100%;
+}
+
+input.submitbutton.ripplelink {
+    background: #adc24f;
+    border: 3px solid rgba(0,0,0,0.1);
+    color: #fff;
+    border-color:#d7f162;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2);
+    transition-delay: 0s;
+    width: 100%;
+    font-size: 14px;
+    /* font-weight: 700; */
+    border: 0px solid;
+    transition: all 0.2s cubic-bezier(0.4,0,0.2,1);
+    padding: 10px 15px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+}
+
+.thumb-content ::before {
+    content: "\f190";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-left: 5px;
+    color: ##ffffff;
+}
+
+
+/* Taller footer on small screens */
+@media (max-width: 567em) {
+    body {
+        margin-bottom: 200px;
+    }
+}
+
+
+img {
+    max-width: 350px;
+    max-height: auto;
+    margin: 3.5px;
+}
+
+body {
+    margin: 6px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+
+}
+
+.div {
+    -webkit-animation: fade-in-fwd 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) alternate forwards;
+    animation: fade-in-fwd 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) alternate forwards;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #344038;
+    text-align: justify;
+    margin-left: 32px;
+    margin-right: 32px;
+
+}
+
+/*Footer*/
+footer {
+   height: 80px;
+    background-color: #EBEDEC;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+footer a {
+    color: #A60D36;
+    font-weight: bold;
+    font-size: 12pt;
+    text-align: left;
+    text-decoration: wavy;
+}
+
+footer a:hover,
+footer a:focus {
+    color: #aaa;
+    text-decoration: none;
+    border-bottom: 0.01px dotted #999;
+}
+
+footer .form-control {
+    background-color: lightgray;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 4px;
+}
+
+footer .btn {
+    background-color: #1C6470;
+    color: white;
+    font-weight: bold;
+    font-size: 12pt;
+    border-radius: 4pt;
+
+}

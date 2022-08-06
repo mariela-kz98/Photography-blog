@@ -1,0 +1,39 @@
+
+
+.avatar{
+width: 160px; 
+height: auto;
+margin: 20px;
+
+animation: float 6s ease-in-out infinite;
+}
+
+.registrationform{
+    width: 280px;
+    height: auto;
+    margin: 12px;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.container-fluid{
+    margin-left: 640px;
+    margin-right: auto;
+}
+
+.button{
+width: 240px;
+  height: 30px;
+  border-radius: 14px;
+  background-color: #1C6470;
+  border: solid 1px transparent;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 200;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.6s;
+  margin: 30px;
+  margin-left: 680px;
+}
+.button:hover{opacity: 1;}
